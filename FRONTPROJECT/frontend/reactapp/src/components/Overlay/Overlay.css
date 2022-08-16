@@ -1,0 +1,112 @@
+@media (min-width: 768px)
+button, input[type=submit], .button {
+    padding: 18px 30px;
+}
+.overlay-type {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 70px 80px;
+    text-align: center;
+    z-index: 1;
+    line-height: 2;
+    animation: mymove 7s infinite;
+    animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 190px;}
+  }
+
+ .overlay__content {
+    word-break: break-word;
+ color: #fff;
+ font-weight: bold;
+ font-size: 13px;
+ margin: 0 0 6px;
+}
+em{
+    font-size: 22.5px;
+    color: #FFFFFF;
+}
+.overlay.position--left .inner>* {
+    text-align: left;
+}
+.overlay .inner>* {
+    line-height: 1px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+h2.line-1{
+    margin: 0 0 20px;
+    color: #FFFFFF;
+    font-size:40 px;
+}
+.line-3{
+    color: #111111;
+    padding: 18px 30px;
+    font-size: 13px;
+}
+.overlay-type .button:not(.overlay-type-ignore) {
+    font-size: 15px;
+    background-color: #fff;
+    color: #111;
+    border-color: #fff;
+}
+
+.image-overlay {
+    position: relative;
+    color: #fff;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+button, input[type=submit], .button {
+    -webkit-appearance: none;
+    display: inline-block;
+    background-color: #111;
+    color: #fff;
+    border: 1px solid #111111;
+    height: auto;
+    width: auto;
+    padding: 18px 30px;
+    line-height: 1.25em;
+    vertical-align: top;
+    font-weight: 400;
+    transition: opacity .3s,color .3s,background-color .3s,border-color .3s,transform .3s;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer__all{
+    border-top: 1px solid lightgrey;
+    padding: 50px;
+}
+.footer__top{
+    margin-bottom: 10px;
+}
+
+.footer__top__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer__top__list li{
+    cursor: pointer;
+}
+.footer__top__list li:hover{
+    color: grey;
+}
+.footer__top__span{
+    display: block;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.footer__top__p{
+    font-size: 11px;
+    margin-top: 10px;
+}
+.footer__top__input{
+    padding: 5px;
+    border: 1px solid #333;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.footer__top__button{
+    border: none;
+    width: 40px;
+    background-color: #8364e2;
+    color: white;
+    padding: 5px;
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer__bottom{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.footer__bottom__list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-end;
+    margin: 0;
+}
+.footer__bottom__list__item{
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #403f83;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.footer__bottom__list__item:hover{
+    background-color: white;
+    border:1px solid #403f83;
+    color: black;
+}
+.footer__bottom__copyright{
+    font-size: 10px;
+    margin: 0;
+}

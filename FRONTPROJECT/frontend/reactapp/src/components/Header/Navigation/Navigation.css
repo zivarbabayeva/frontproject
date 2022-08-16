@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header__navigation__links {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  .header__navigation__link__item {
+    color: black;
+    align-self: flex-end;
+    margin-left: 25px;
+    margin-right: 20px;
+  }
+  .header__link {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s linear;
+  }
+  .header__link:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 166);
+  }

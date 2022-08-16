@@ -1,0 +1,8 @@
+.header__input{
+    padding: 4px 11px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    background: rgba(131,100,226,.1);
+    outline: none;
+}

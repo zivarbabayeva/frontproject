@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faq__body{
+    padding-top: 100px;
+    height: 650px;
+}

@@ -1,0 +1,22 @@
+body {
+    font-family: Avenir Next,sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.5em;
+    color: #111;
+    overflow: auto;
+    background-color: #fff;
+    background-position: top center;
+    -moz-font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}
+i{
+  font-size: 22px;
+}
+
+.card{
+  height: 100%!important;
+}
